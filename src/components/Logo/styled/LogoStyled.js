@@ -1,14 +1,17 @@
 import styled from "styled-components"
+import breakpoints from "../../../theme/breakpoints"
 
 const LogoStyled = styled.div`
   display: flex;
   flex-direction: row;
-  font-weight: bold;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: flex-start;
   font-size: 2rem;
-  line-height: 1;
-  height: 400%;
+  @media (min-width: ${breakpoints.sm}) {
+    font-size: 1.5rem;
+  }
+  line-height: 0;
+  height: 50%;
   width: 100%;
 `
 

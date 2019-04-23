@@ -1,10 +1,10 @@
 module.exports = {
   pathPrefix: `/blog`,
   siteMetadata: {
-    title: `Gatsby Starter Ulrich Anders`,
+    title: `AppDevelopment@CBS`,
     description: `This is a starter that is used for teaching at the Cologne Business School.`,
     author: `Dr. Ulrich Anders`,
-    version: "0.8.0",
+    version: "0.8.4",
     siteUrl: "https://gsua.de",
   },
   plugins: [

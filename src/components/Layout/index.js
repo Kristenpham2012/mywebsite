@@ -7,8 +7,9 @@ import { ThemeProvider } from "styled-components"
 import { Flex } from "rebass"
 import "typeface-montserrat"
 import "typeface-dosis"
-import "typeface-dancing-script"
+import "typeface-cute-font"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+
 
 import { library } from "@fortawesome/fontawesome-svg-core"
 import {
@@ -26,7 +27,8 @@ import Main from "../Main"
 import Footer from "../Footer"
 import Menu from "../Menu"
 import MenuItem from "../MenuItem"
-import imgLogo from "../../images/logo.png"
+import imgLogo from "../../images/officiallogo.png"
+
 
 library.add(
   fab,
@@ -56,7 +58,7 @@ const Layout = ({ children }) => {
           <Logo to="/" text="One among many" img={imgLogo} />
           <Menu>
             <MenuItem to="/">Home</MenuItem>
-            <MenuItem to="/blog/">Blog</MenuItem>
+            <MenuItem to="/blog/">Blogs</MenuItem>
             <MenuItem to="/resources/">Resources</MenuItem>
             <MenuItem to="/about/">About</MenuItem>
           </Menu>

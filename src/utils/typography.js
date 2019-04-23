@@ -1,9 +1,9 @@
 import Typography from "typography"
 
 const typography = new Typography({
-  baseFontSize: "18px",
+  baseFontSize: "15px",
   baseLineHeight: 1.5,
-  headerFontFamily: ["Dancing Script", "serif"],
+  headerFontFamily: ["Montserrat", "serif"],
   bodyFontFamily: ["Dosis", "serif"],
 })
 

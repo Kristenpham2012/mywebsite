@@ -2,10 +2,12 @@ import styled from "styled-components"
 
 const LogoImg = styled.img`
   display: inline-block;
-  width: 300px;
-  margin: -20px;
-  margin-right: 1rem;
-  vertical-align: 0px;
+  width: 30px;
+  margin: 0;
+  margin-right: 0.5rem;
+  vertical-align: -6px;
+  padding-top: 6px;
+
 `
 
 export default LogoImg

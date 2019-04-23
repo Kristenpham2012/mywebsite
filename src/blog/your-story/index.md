@@ -1,12 +1,12 @@
 ---
-title: Your Story
+title: Our Story
 date: 2019-02-07
-description: I am interested to hear your story.
+description: Are you interested to hear our story?
 ---
 
 ![Vintage Typewriter](img/1200/16x9/03.jpg)
 
-I am interested to hear your story.
+Are you interested to hear our story?
 
 ## Markdown
 

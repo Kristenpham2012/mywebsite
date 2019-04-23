@@ -1,7 +1,9 @@
+import background from "../images/1200/16x9/02.jpg"
+
 const theme = {
   sectionWidth: "1000px",
   bgMain: "#fff",
-  bgHeader: "#003300",
+  bgHeader: "#333",
   breakpoints: ["480px", "800px", "1200px", "1440px"],
   fontSizes: ["1rem", "4.22rem", "2.61rem", "1.61rem", "1rem", "1rem"],
   colors: {

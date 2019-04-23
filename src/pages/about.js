@@ -6,13 +6,21 @@ import Layout from "../components/Layout"
 import SEO from "../components/SEO"
 import Section from "../components/Section"
 import RespGrid from "../components/RespGrid"
+import { ThemeProvider, BackgroundImage, Heading } from 'pcln-design-system'
+
 
 const AboutPage = () => (
   <Layout>
     <SEO title="About" />
+    <ThemeProvider>
+      <BackgroundImage
+        image='https://cdn1.imggmi.com/uploads/2019/4/22/b9ddbd7b5ddff081e2d07f96cf58ea87-full.jpg'
+        height={"180px"}>
+      </BackgroundImage>
+    </ThemeProvider>
     <Section>
-      <H1 fontSize={[6]} lineHeight={[1.5]}>
-        This is about...
+      <H1 fontSize={[2]} lineHeight={[0.5]}>
+        Welcome to oneamongmany!
       </H1>
       <H3>Two columns achieved with CSS flexbox</H3>
     </Section>

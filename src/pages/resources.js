@@ -7,9 +7,17 @@ import SEO from "../components/SEO"
 import Section from "../components/Section"
 import RespGrid from "../components/RespGrid"
 
+import { ThemeProvider, BackgroundImage, Heading } from 'pcln-design-system'
+
 const ResourcesPage = () => (
   <Layout>
     <SEO title="Resources" />
+    <ThemeProvider>
+      <BackgroundImage
+        image='https://cdn1.imggmi.com/uploads/2019/4/22/b9ddbd7b5ddff081e2d07f96cf58ea87-full.jpg'
+        height={"180px"}>
+      </BackgroundImage>
+    </ThemeProvider>
     <Section>
       <H1>Resources</H1>
     </Section>

@@ -3,11 +3,12 @@ import breakpoints from "../../theme/breakpoints"
 
 export const H1 = styled.h1`
   font-size: 2.6111111rem;
+  color: #268B71;
   line-height: 3.8333333rem;
   margin-top: 1.2777778rem;
   margin-bottom: 1.2777778rem;
   @media (min-width: ${breakpoints.sm}) {
-    font-size: 4.2222222rem;
+    font-size: 3.2222222rem;
     line-height: 5.1111111rem;
     margin-top: 1.2777778rem;
     margin-bottom: 2.5555556rem;

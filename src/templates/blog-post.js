@@ -1,6 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import { Heading } from "rebass"
+import "prismjs/themes/prism.css"
 
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"

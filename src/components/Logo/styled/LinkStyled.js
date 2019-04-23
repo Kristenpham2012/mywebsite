@@ -4,11 +4,13 @@ import { Link } from "gatsby"
 const LinkStyled = styled(Link)`
   display: block;
   background: transparent;
-  color: #1D5B3B;
+  color: #268B71;
   text-decoration: none;
+  padding-bottom: -10px;
   vertical-align: middle;
+  font-family: 'Acme', sans-serif;
   &:hover {
-    color: yellow;
+    color: #FFA500	;
   }
 `
 

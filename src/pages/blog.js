@@ -7,6 +7,8 @@ import Section from "../components/Section"
 import SEO from "../components/SEO"
 import { H1, H3, P } from "../components/VerticalRhythm"
 
+import { ThemeProvider, BackgroundImage } from 'pcln-design-system'
+
 class BlogPage extends React.Component {
   render() {
     const { data } = this.props
@@ -17,8 +19,14 @@ class BlogPage extends React.Component {
       <Layout>
         <SEO
           title="All posts"
-          keywords={[`blog`, `gatsby`, `javascript`, `react`]}
-        />
+          keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
+        <ThemeProvider>
+          <BackgroundImage
+            image='https://cdn1.imggmi.com/uploads/2019/4/22/b9ddbd7b5ddff081e2d07f96cf58ea87-full.jpg'
+            height={"180px"}>
+          </BackgroundImage>
+        </ThemeProvider>
+
         <Section>
           <H1>Blog</H1>
           {posts.map(({ node }) => {

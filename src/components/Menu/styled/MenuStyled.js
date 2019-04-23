@@ -2,10 +2,12 @@ import styled from "styled-components"
 
 const MenuStyled = styled.div`
   display: inline-flex;
-  flex-direction: row;
   justify-content: flex-end;
-  align-items: flex-end;
-  float: left;
+  flex-direction: row;
+  align-items: flex-start;
+  line-height: 0;
+  height: 50%;
+  width: 100%;
 `
 
 export default MenuStyled

@@ -7,7 +7,7 @@ const HeaderSection = styled.section`
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-between;
-  height: ${theme.headerHeight || "100px"};
+  height: 50px;
   max-width: ${theme.sectionWidth};
   margin: auto;
 `
