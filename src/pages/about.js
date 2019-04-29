@@ -60,7 +60,7 @@ const AboutPage = () => (
               <FontAwesomeIcon icon={["fab", "facebook-f"]} />
             </a>
             <a
-              href="https://www.facebook.com/oneamongmany.politics"
+              href="https://www.reddit.com/user/one--among--many"
               target="_blank"
               rel="noopener nofollow"
             >

@@ -33,7 +33,7 @@ const IndexPage = () => (
     <Section>
       <Flex flexWrap="wrap">
         <Box width={"550px"} pl={[0, 2]} mt={"15px"}>
-          <H2>Featured Blog</H2>
+            <H2>Featured Blog</H2>
           <Carousel width={"480px"}>
             <Link to="blog/trumpcontroversy/"><img src={post1} /></Link>
             <Link to="blog/brexit/"><img src={post2} /></Link>
@@ -43,10 +43,10 @@ const IndexPage = () => (
           <H2>Review of The Month</H2>
           <Flex flexWrap="wrap">
             <Box width={"100px"} mr={"5px"}>
-            <Link to="blog/ontyranny/"><img src={ontyranny} /></Link>
+              <Link to="blog/ontyranny/"><img src={ontyranny} /></Link>
             </Box>
             <Box width={"320px"} mt={"35px"}>
-              <P>'On Tyranny' -  The vulnerability of democracy</P>
+              <Link to="blog/ontyranny/"><P>'On Tyranny' -  The vulnerability of democracy</P></Link>
             </Box>
           </Flex>
         </Box>
@@ -55,7 +55,7 @@ const IndexPage = () => (
             <H2>Recently uploaded</H2></Section>
           <Section>
             <Flex flexWrap="wrap">
-              <Box width={"100px"} mr={"6px"} mb={"10px"}>
+                <Box width={"100px"} mr={"6px"} mb={"10px"}>
                 <Link to="blog/trumpcontroversy/"><img src={thumbnail1} /></Link>
               </Box>
               <Box width={"250px"}>

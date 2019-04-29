@@ -16,11 +16,11 @@ const ImprintPage = () => (
         <Box>
           <H3>Responsible</H3>
           <P>
-            Dr. Ulrich Anders
+            One Among Many
             <br />
             {"<Address>"}
             <br />
-            {"<Email>"}
+            {"<oneamongmany.politics@gmail.com>"}
           </P>
         </Box>
         <Box>

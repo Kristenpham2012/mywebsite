@@ -78,7 +78,7 @@ const Layout = ({ children }) => {
               target="_blank"
               rel="noopener nofollow"
             >
-              <FontAwesomeIcon icon={["fab", "twitter-square"]} color="#fff" />
+              <FontAwesomeIcon icon={["fab", "twitter-square"]} color="#fff"/>
             </a>
             <a
               href="https://www.facebook.com/oneamongmany.politics"
@@ -91,7 +91,7 @@ const Layout = ({ children }) => {
               />
             </a>
             <a
-              href="https://www.facebook.com/oneamongmany.politics"
+              href="https://www.reddit.com/user/one--among--many"
               target="_blank"
               rel="noopener nofollow"
             >
@@ -118,7 +118,7 @@ const Layout = ({ children }) => {
               <FontAwesomeIcon icon={["fab", "facebook-square"]} />
             </a>
             <a
-              href="https://www.facebook.com/oneamongmany.politics"
+              href="https://www.reddit.com/user/one--among--many"
               target="_blank"
               rel="noopener nofollow"
             >
