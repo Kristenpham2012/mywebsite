@@ -2,7 +2,7 @@ import styled from "styled-components"
 import breakpoints from "../../../theme/breakpoints"
 
 const LogoStyled = styled.div`
-  display: flex;
+  display: block;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
@@ -11,8 +11,10 @@ const LogoStyled = styled.div`
     font-size: 1.5rem;
   }
   line-height: 0;
-  height: 50%;
-  width: 100%;
+  height: 55%;
+  width: 26%;
+  margin-right: auto;
+  margin-left: auto;
 `
 
 export default LogoStyled

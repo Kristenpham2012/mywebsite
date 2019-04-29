@@ -1,56 +1,126 @@
 import React from "react"
 import { Link } from "gatsby"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
 import Section from "../components/Section"
 import Figure from "../components/Figure"
-import { H1, P } from "../components/VerticalRhythm"
-import background from "../images/1200/16x9/02.jpg"
+import { H1, H2, H3, H4, P } from "../components/VerticalRhythm"
 import { ThemeProvider, BackgroundImage, Heading } from 'pcln-design-system'
 import Carousel from 'nuka-carousel'
-import post1 from "../images/post1.jpg"
+import post1 from "../images/posts/trumpcontroversy.jpg"
+import post2 from "../images/posts/brexitni.jpg"
+import post3 from "../images/posts/qatar.jpg"
+import post4 from "../images/posts/jerusalem.jpg"
+import header from "../images/header.jpg"
+import { Flex, Box } from "rebass"
+import RespGrid from "../components/RespGrid"
+import ontyranny from "../images/ontyranny.png"
+import thumbnail1 from "../images/thumbnails/trumpcontroversy.png"
+import thumbnail2 from "../images/thumbnails/irandeal.png"
+import thumbnail3 from "../images/thumbnails/brexit.png"
+import thumbnail4 from "../images/thumbnails/polandhungary.png"
+import thumbnail5 from "../images/thumbnails/turkey.png"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`appdevelopment`, `cbs`, `react`]} />
     <ThemeProvider>
-      <BackgroundImage
-        image='https://cdn1.imggmi.com/uploads/2019/4/22/b9ddbd7b5ddff081e2d07f96cf58ea87-full.jpg'
-        height={"180px"}>
+      <BackgroundImage>
+        <img src={header} />
       </BackgroundImage>
     </ThemeProvider>
     <Section>
-      <H1>Recently uploaded</H1>
-      <P>Slide right for the most recently updated blog post about geopolitics.</P>
-      <P>
-        Websites are the basis and anchor for any successful marketing strategy.
-        Read more about it in the blog post:{" "}
-        <Link to="blog/importance-of-websites/">
-          The Importance of Websites
-        </Link>
-        .
-      </P>
-      <P>
-        This template is responsive. It teaches you design with fonts and images
-        as well as aspects of SEO. The template comes with the latest JavaScript
-        technologies: React, Gatsby, Styled Components, GraphQL and CSS layouts.
-        Of course, you can also use icons, e.g.{" "}
-        <FontAwesomeIcon icon="coffee" />, <FontAwesomeIcon icon="yin-yang" />,{" "}
-        <FontAwesomeIcon icon="peace" />.
-      </P>
-      <P>Now you have the basis to build something great.</P>
-      <P>Have fun with it!</P>
+      <Flex flexWrap="wrap">
+        <Box width={"550px"} pl={[0, 2]} mt={"15px"}>
+          <H2>Featured Blog</H2>
+          <Carousel width={"480px"}>
+            <Link to="blog/trumpcontroversy/"><img src={post1} /></Link>
+            <Link to="blog/brexit/"><img src={post2} /></Link>
+            <Link to="blog/hello-world/"><img src={post4} /></Link>
+            <Link to="blog/qatar/"><img src={post3} /></Link>
+          </Carousel>
+          <H2>Review of The Month</H2>
+          <Flex flexWrap="wrap">
+            <Box width={"100px"} mr={"5px"}>
+            <Link to="blog/ontyranny/"><img src={ontyranny} /></Link>
+            </Box>
+            <Box width={"320px"} mt={"35px"}>
+              <P>'On Tyranny' -  The vulnerability of democracy</P>
+            </Box>
+          </Flex>
+        </Box>
+        <Box width={"400px"} pr={[0, 2]} mt={"15px"}>
+          <Section>
+            <H2>Recently uploaded</H2></Section>
+          <Section>
+            <Flex flexWrap="wrap">
+              <Box width={"100px"} mr={"6px"} mb={"10px"}>
+                <Link to="blog/trumpcontroversy/"><img src={thumbnail1} /></Link>
+              </Box>
+              <Box width={"250px"}>
+                <H4><Link to="blog/trumpcontroversy/">
+                  Donald Trump and the controvery over white farmers in South Africa
+                      </Link>
+                </H4>
+              </Box>
+            </Flex>
+          </Section>
+          <Section>
+            <Flex flexWrap="wrap">
+              <Box width={"100px"} mr={"6px"} mb={"10px"}>
+                <Link to="blog/irandeal/"><img src={thumbnail2} /></Link>
+              </Box>
+              <Box width={"260px"}>
+                <H4><Link to="blog/irandeal/">
+                  The potential pitfalls of US withdrawal from the Iran nuclear deal
+                  </Link>
+                </H4>
+              </Box>
+            </Flex>
+          </Section>
+          <Section>
+            <Flex flexWrap="wrap">
+              <Box width={"100px"} mr={"6px"} mb={"10px"}>
+                <Link to="blog/brexit/"><img src={thumbnail3} /></Link>
+              </Box>
+              <Box width={"250px"}>
+                <H4><Link to="blog/brexit/">
+                  Brexit and the security concerns facing Nothern Ireland
+                  </Link>
+                </H4>
+              </Box>
+            </Flex>
+          </Section>
+          <Section>
+            <Flex flexWrap="wrap">
+              <Box width={"100px"} mr={"6px"} mb={"10px"}>
+                <Link to="blog/importance-of-websites/"><img src={thumbnail4} /></Link>
+              </Box>
+              <Box width={"250px"}>
+                <H4><Link to="blog/importance-of-websites/">
+                  The European Union's showdown with Poland and Hungary
+                  </Link>
+                </H4>
+              </Box>
+            </Flex>
+          </Section>
+          <Section>
+            <Flex flexWrap="wrap">
+              <Box width={"100px"} mr={"6px"} mb={"10px"}>
+                <Link to="blog/your-story/"><img src={thumbnail5} /></Link>
+              </Box>
+              <Box width={"250px"}>
+                <H4><Link to="blog/your-story/">
+                  Turkish assault on Afrin and Germany’s role
+                  </Link>
+                </H4>
+              </Box>
+            </Flex>
+          </Section>
+        </Box>
+      </Flex>
     </Section>
-    <Carousel>
-      <img src={post1} />
-      <img src={post1} />
-      <img src={post1} />
-      <img src={post1} />
-      <img src={post1} />
-      <img src={post1} />
-    </Carousel>
   </Layout>
 )
 

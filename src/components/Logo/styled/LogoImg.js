@@ -6,8 +6,7 @@ const LogoImg = styled.img`
   margin: 0;
   margin-right: 0.5rem;
   vertical-align: -6px;
-  padding-top: 6px;
-
+  padding-top:10px;
 `
 
 export default LogoImg

@@ -3,7 +3,7 @@ import theme from "../../../theme"
 
 const FooterStyled = styled.footer`
   padding: 1rem 0;
-  background: ${theme.bgHeader || "#333"};
+  background: #268B71;
   color: #fff;
   & a {
     color: #fff;

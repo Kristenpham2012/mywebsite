@@ -6,7 +6,7 @@ import Layout from "../components/Layout"
 import Section from "../components/Section"
 import SEO from "../components/SEO"
 import { H1, H3, P } from "../components/VerticalRhythm"
-
+import header from "../images/header.jpg"
 import { ThemeProvider, BackgroundImage } from 'pcln-design-system'
 
 class BlogPage extends React.Component {
@@ -21,9 +21,8 @@ class BlogPage extends React.Component {
           title="All posts"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
         <ThemeProvider>
-          <BackgroundImage
-            image='https://cdn1.imggmi.com/uploads/2019/4/22/b9ddbd7b5ddff081e2d07f96cf58ea87-full.jpg'
-            height={"180px"}>
+          <BackgroundImage>
+            <img src={header} />
           </BackgroundImage>
         </ThemeProvider>
 

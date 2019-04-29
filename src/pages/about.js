@@ -1,67 +1,74 @@
 import React from "react"
 import { Flex, Box } from "rebass"
-import { H1, H3, P } from "../components/VerticalRhythm"
+import { H1, H2, H3, H4, P } from "../components/VerticalRhythm"
 
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
 import Section from "../components/Section"
 import RespGrid from "../components/RespGrid"
 import { ThemeProvider, BackgroundImage, Heading } from 'pcln-design-system'
+import header from "../images/header.jpg"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { library } from "@fortawesome/fontawesome-svg-core"
+import {
+  fab,
+  faFacebookSquare,
+  faTwitterSquare,
+  faRedditSquare
+} from "@fortawesome/free-brands-svg-icons"
 
 
 const AboutPage = () => (
   <Layout>
     <SEO title="About" />
     <ThemeProvider>
-      <BackgroundImage
-        image='https://cdn1.imggmi.com/uploads/2019/4/22/b9ddbd7b5ddff081e2d07f96cf58ea87-full.jpg'
-        height={"180px"}>
+      <BackgroundImage>
+        <img src={header} />
       </BackgroundImage>
     </ThemeProvider>
     <Section>
-      <H1 fontSize={[2]} lineHeight={[0.5]}>
-        Welcome to oneamongmany!
-      </H1>
-      <H3>Two columns achieved with CSS flexbox</H3>
-    </Section>
-    <Section>
       <Flex flexWrap="wrap">
-        <Box width={[1, 1 / 2]} pr={[0, 2]}>
-          <P>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat
-            tempora eaque, officiis perspiciatis hic facilis aperiam ea.
-            Laboriosam eum laudantium eos expedita ipsa omnis repudiandae
-            repellat quasi, nemo accusantium odit.
+        <Box width={"650px"} pr={[0, 2]}>
+          <H2 fontSize={[2]} lineHeight={[0.5]}>
+            Welcome to oneamongmany!
+      </H2>
+          <P>If you’re interested in reading yet another opinion about the events shaping our world,
+            you’ve certainly come to the right place. We are living in uncertain times, and there’s
+            no shortage of issues to discuss. In this blog, a number of topics will be covered to address
+            the ongoing issues around the globe, such as the migrant crisis facing the EU, the UK leaving the EU, as well as the rise of China, climate change,
+            and American politics.
           </P>
+          <P>Stay tuned for upcoming blogs!</P>
         </Box>
-        <Box width={[1, 1 / 2]} pl={[0, 2]}>
-          <P>
-            Elit non anim proident amet id minim. Dolor fugiat adipisicing
-            labore sunt sit laborum laboris. Excepteur proident eu do dolore
-            commodo laborum dolor. Eiusmod enim esse in proident pariatur
-            commodo consequat occaecat amet.
-          </P>
+        <Box width={"300px"} pl={[0, 2]}>
+          <H2>Let's talk!</H2>
+          <Flex width={"15rem"}
+            justifyContent="space-between"
+            fontSize={"25px"} >
+            <a
+              href="https://twitter.com/_OneAmongMany"
+              target="_blank"
+              rel="noopener nofollow"
+            >
+              <FontAwesomeIcon icon={["fab", "twitter"]} />
+            </a>
+            <a
+              href="https://www.facebook.com/oneamongmany.politics"
+              target="_blank"
+              rel="noopener nofollow"
+            >
+              <FontAwesomeIcon icon={["fab", "facebook-f"]} />
+            </a>
+            <a
+              href="https://www.facebook.com/oneamongmany.politics"
+              target="_blank"
+              rel="noopener nofollow"
+            >
+              <FontAwesomeIcon icon={["fab", "reddit-alien"]} />
+            </a>
+          </Flex>
         </Box>
       </Flex>
-      <Section>
-        <H3>Two columns achieved with CSS grid</H3>
-      </Section>
-      <RespGrid min={"240px"}>
-        <P>
-          Occaecat aliqua excepteur labore anim quis aliquip. Do amet proident
-          veniam dolore. Do non esse dolor nostrud in ipsum aliquip velit
-          cupidatat esse dolor veniam aliqua. Pariatur enim exercitation eu
-          occaecat. Occaecat reprehenderit reprehenderit cupidatat et fugiat
-          veniam ea labore occaecat dolor magna.
-        </P>
-        <P>
-          Cillum aliquip exercitation ut culpa sit. In ullamco aliqua occaecat
-          pariatur officia qui magna labore aute. Consectetur irure est ex
-          exercitation. Elit fugiat irure adipisicing elit tempor fugiat dolor
-          esse occaecat. Dolor sint eu mollit et reprehenderit aute sunt dolor
-          eu qui aliquip dolore reprehenderit magna.
-        </P>
-      </RespGrid>
     </Section>
   </Layout>
 )

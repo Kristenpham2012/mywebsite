@@ -7,6 +7,7 @@ const FigureStyled = styled.div`
   font-size: small;
   margin: auto;
   padding: 0 0.5rem;
+   
 `
 
 export default FigureStyled

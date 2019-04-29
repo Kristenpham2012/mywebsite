@@ -8,6 +8,11 @@ import { Flex } from "rebass"
 import "typeface-montserrat"
 import "typeface-dosis"
 import "typeface-cute-font"
+import "typeface-ubuntu"
+import "typeface-source-sans-pro"
+import "typeface-cuprum"
+import "typeface-pt-sans"
+import "typeface-special-elite"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 
@@ -16,6 +21,7 @@ import {
   fab,
   faFacebookSquare,
   faTwitterSquare,
+  faRedditSquare
 } from "@fortawesome/free-brands-svg-icons"
 import { faPeace, faCoffee, faYinYang } from "@fortawesome/free-solid-svg-icons"
 
@@ -28,7 +34,6 @@ import Footer from "../Footer"
 import Menu from "../Menu"
 import MenuItem from "../MenuItem"
 import imgLogo from "../../images/officiallogo.png"
-
 
 library.add(
   fab,
@@ -55,31 +60,69 @@ const Layout = ({ children }) => {
     <ThemeProvider theme={theme}>
       <Container>
         <Header>
-          <Logo to="/" text="One among many" img={imgLogo} />
-          <Menu>
-            <MenuItem to="/">Home</MenuItem>
-            <MenuItem to="/blog/">Blogs</MenuItem>
-            <MenuItem to="/resources/">Resources</MenuItem>
-            <MenuItem to="/about/">About</MenuItem>
-          </Menu>
+          <Logo to="/" text="One Among Many" img={imgLogo} />
         </Header>
+        <Menu>
+          <MenuItem to="/">Home</MenuItem>
+          <MenuItem to="/blog/">Blogs - Reviews</MenuItem>
+          <MenuItem to="/resources/">Resources</MenuItem>
+          <MenuItem to="/about/">About</MenuItem>
+          <Flex
+            width={"7rem"}
+            justifyContent="space-between"
+            marginLeft={"700px"}
+            marginTop={"4px"}
+            fontSize={"19px"}>
+            <a
+              href="https://twitter.com/_OneAmongMany"
+              target="_blank"
+              rel="noopener nofollow"
+            >
+              <FontAwesomeIcon icon={["fab", "twitter-square"]} color="#fff" />
+            </a>
+            <a
+              href="https://www.facebook.com/oneamongmany.politics"
+              target="_blank"
+              rel="noopener nofollow"
+            >
+              <FontAwesomeIcon
+                icon={["fab", "facebook-square"]}
+                color="#fff"
+              />
+            </a>
+            <a
+              href="https://www.facebook.com/oneamongmany.politics"
+              target="_blank"
+              rel="noopener nofollow"
+            >
+              <FontAwesomeIcon icon={["fab", "reddit-square"]} color="#fff" />
+            </a>
+          </Flex>
+        </Menu>
         <Main>{children}</Main>
         <Footer>
           <div>© One among many</div>
-          <Flex width={"3rem"} justifyContent="space-between">
+          <Flex width={"8rem"} justifyContent="space-between" >
             <a
-              href="https://twitter.com/"
+              href="https://twitter.com/_OneAmongMany"
               target="_blank"
               rel="noopener nofollow"
             >
               <FontAwesomeIcon icon={["fab", "twitter-square"]} />
             </a>
             <a
-              href="https://facebook.com/"
+              href="https://www.facebook.com/oneamongmany.politics"
               target="_blank"
               rel="noopener nofollow"
             >
               <FontAwesomeIcon icon={["fab", "facebook-square"]} />
+            </a>
+            <a
+              href="https://www.facebook.com/oneamongmany.politics"
+              target="_blank"
+              rel="noopener nofollow"
+            >
+              <FontAwesomeIcon icon={["fab", "reddit-square"]} />
             </a>
           </Flex>
           <Flex flexDirection="column">

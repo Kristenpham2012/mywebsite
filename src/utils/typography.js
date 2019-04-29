@@ -1,10 +1,10 @@
 import Typography from "typography"
 
 const typography = new Typography({
-  baseFontSize: "15px",
+  baseFontSize: "16px",
   baseLineHeight: 1.5,
-  headerFontFamily: ["Montserrat", "serif"],
-  bodyFontFamily: ["Dosis", "serif"],
+  headerFontFamily: ["Ubuntu", "sans-serif"],
+  bodyFontFamily: ["Source Sans Pro", "sans-serif"],
 })
 
 // Hot reload typography in development.

@@ -8,10 +8,12 @@ const LinkStyled = styled(Link)`
   text-decoration: none;
   padding-bottom: -10px;
   vertical-align: middle;
-  font-family: 'Acme', sans-serif;
+  font-size: 24px;
+  font-weight: normal;
   &:hover {
-    color: #FFA500	;
+    color: #cfd8dd	;
   }
+  font-family: 'Special Elite', cursive;
 `
 
 export default LinkStyled

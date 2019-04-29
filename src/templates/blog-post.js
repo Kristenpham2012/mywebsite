@@ -7,6 +7,8 @@ import Layout from "../components/Layout"
 import SEO from "../components/SEO"
 import Section from "../components/Section"
 import { H1, P } from "../components/VerticalRhythm"
+import { ThemeProvider, BackgroundImage } from 'pcln-design-system'
+import header from "../images/header.jpg"
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -20,8 +22,13 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
+        <ThemeProvider>
+          <BackgroundImage>
+            <img src={header} />
+          </BackgroundImage>
+        </ThemeProvider>
         <Section>
-          <Heading as="h1" fontSize={[2, 1]} mt={4}>
+          <Heading as="h1" fontSize={"40px"} mt={4} mb={1} color="#494949">
             {post.frontmatter.title}
           </Heading>
           <p>{post.frontmatter.date}</p>
