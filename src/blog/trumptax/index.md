@@ -2,6 +2,7 @@
 title: Trump’s tax cut ambitions
 date: 2017-12-26
 description: The Republican party has passed yet more tax cuts for wealthy Americans and large corporations. What does this mean for the average American?
+featuredImage: "./featured-image.jpg"
 ---
 Since the Republican party won the US congressional and presidential elections in 2016, they have made a renewed push for tax cuts designed to benefit wealthy Americans, and have just passed another round of tax cuts. President Donald Trump has claimed that these tax cuts “will be the biggest in the history of our country”. Secretary of the Treasury, Steven Mnuchin has echoed this claim, although evidence has suggested otherwise. Nevertheless, this strategy of cutting taxes for wealthy Americans in the hopes of stimulating the economy is not a new one, and the current plan seeks to continue the “trickle-down economics” once espoused by Ronald Reagan. In this piece, we’ll examine two states that have attempted similar tax cuts in recent years, and also take a look at previous tax cuts made by Reagan and Bush. We’ll then compare them with the current tax plan and analyse what impacts it will have.
 

@@ -28,7 +28,7 @@ class BlogPostTemplate extends React.Component {
           </BackgroundImage>
         </ThemeProvider>
         <Section>
-          <Heading as="h1" fontSize={"40px"} mt={4} mb={1} color="#494949">
+          <Heading as="h1" fontSize={"40px"} mt={4} mb={1} color="#494949" fontFamily={"PT Sans"}>
             {post.frontmatter.title}
           </Heading>
           <p>{post.frontmatter.date}</p>

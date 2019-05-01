@@ -2,6 +2,7 @@
 title: The European Union's showdown with Poland and Hungary
 date: 2018-03-29
 description: EU relations with Poland and Hungary have deteriorated in recent years. Here, we examine how this has come to be, and what solutions can be considered.
+featuredImage: "./featured-image.jpg"
 ---
 In October 2015, Poland elected a new government to be led by the right-wing Law and Justice Party. This election was seen by many as a negative response to German Chancellor Angela Merkel’s announcement the previous month to open Germany’s door to hundreds of thousands of asylum seekers, predominantly Muslims. Since this election, Poland has refused to take in 7,000 migrants as mandated by the European Commission and has passed sweeping laws to reform its judiciary, ostensibly with the aim of sidelining officials from the country’s communist era and improving efficiency. However, by granting the president and parliament the power to appoint and fire judges, the ruling Law and Justice Party has eroded the independence of the judiciary and has, in essence, grabbed power for itself. This has been met with huge concern by the EU, whose leaders are have begun taking steps to address this matter.
 

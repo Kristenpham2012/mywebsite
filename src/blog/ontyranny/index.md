@@ -2,6 +2,7 @@
 title: ‘On Tyranny’ - The vulnerability of democracy
 date: 2018-01-17
 description: Author Timothy Snyder has a few lessons to help us protect democracy. Can we avoid making the same mistakes as many Europeans did in the 1920s to the 1940s?
+featuredImage: "./featured-image.jpg"
 ---
 In the 20th century, a litany of liberal democracies in Europe fell to tyrannical forms of government like fascism, communism and nazism. After the bloodiest war in history saw the fall of fascism and nazism, the world saw decades of tension between the democratic United States and the communist Soviet Union. After the fall of communism in Europe, there was renewed hope of liberal democracies flourishing across the globe. However, this did not quite turn out to be the case. Nowadays, there are renewed concerns that tyranny is making a fresh assault on liberal democracies. In this book, released in March 2017, history professor Timothy Snyder aims to teach us a few lessons on how to prevent tyranny from taking over democracies once again (particularly the US). Read on to see if he succeeds in delivering his message of resistance against the creeping tyranny facing liberal democracies.
 

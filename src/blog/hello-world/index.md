@@ -2,6 +2,7 @@
 title: The two-state solution is dead. Long live independent Jerusalem
 date: 2018-01-09
 description: The prospect of a two-state solution to the Israel-Palestine conflict has been dealt serious blows in recent years. It may be time to consider alternatives.
+featuredImage: "./featured-image.jpg"
 ---
 The conflict between Israel and the Palestinians rarely fade away from the news, and the last year has been no different. For decades, the international community has supported a two-state solution along the 1967 borders as the blueprint to solving the conflict between Israel and the Palestinian territories it occupies. However, the peace process between Israel and the Palestinians has stalled, and an agreement between the two parties seems further away than ever. Much has changed in the last number of years, and while the United Nations (UN) clings to the belief that the two-state solution is the only way to achieve peace, they may be forced to seek alternative solutions in the future.
 

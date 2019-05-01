@@ -1,7 +1,8 @@
 ---
 title: Canada, Bill C-16, and freedom of expression
 date: 2017-11-27
-description: Post Bill C-16, we are seeing a new debate over free speech in Canada. What lies at the centre of the controversy at Wilfrid Laurier University? 
+description: Post Bill C-16, we are seeing a new debate over free speech in Canada. What lies at the centre of the controversy at Wilfrid Laurier University?
+featuredImage: "./featured-image.jpg"
 ---
 Canada, like most liberal democracies around the world, places freedom of expression as one of its most important human rights, protected by Section 2 of the Constitution Act, 1982. However, also like most liberal democracies, freedom of expression is subject to certain limitations in Canada. Section 1 of the same Constitution Act states that rights and freedoms are subject to “such reasonable limits prescribed by law as can be demonstrably justified in a free and democratic society.” The question of what constitutes “reasonable” under the law has been raised again this year, in the aftermath of the enactment of the controversial “Bill C-16” and its effects on freedom of expression. In this piece, I will be examining the law’s first major controversy, and what we can all learn from the mistakes made by the Canadian federal government.
 

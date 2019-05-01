@@ -13,6 +13,7 @@ export const H1 = styled.h1`
     margin-top: 1.2777778rem;
     margin-bottom: 0.5555556rem;
   }
+  font-family:'PT Sans';
 `
 export const H2 = styled.h2`
   font-size: 1.6111111rem;
@@ -36,7 +37,6 @@ export const H3 = styled.h3`
   line-height: 2.5555556rem;
   margin-top: 1.2777778rem;
   margin-bottom: 0rem;
-  font-family: 'Source Sans Pro', sans-serif;
 `
 
 export const H4 = styled.h4`

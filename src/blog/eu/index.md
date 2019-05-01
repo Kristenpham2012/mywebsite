@@ -2,6 +2,7 @@
 title: The governmental structure of the European Union is largely democratic but it contains one huge flaw - the European Commission
 date: 2017-11-20
 description: The EU is often described as "undemocratic". How can this be possible, and what can be done to make the EU more accountable to the people?
+featuredImage: "./featured-image.jpg"
 ---
 ##The EU and the rise of Euroscepticism
 

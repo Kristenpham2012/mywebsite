@@ -16,237 +16,124 @@ const ResourcesPage = () => (
     <SEO title="Resources" />
     <ThemeProvider>
       <BackgroundImage>
-        <img src={header}/>
+        <img src={header} />
       </BackgroundImage>
     </ThemeProvider>
     <Section>
-      <H1>Resources</H1>
-    </Section>
-    <Section>
       <H2>References</H2>
       <Ol>
-        <li>Building website components with JavaScript.</li>
+        <li>Donald Trump and the controversy over white farmers in South Africa</li>
         <ul>
-          <li>
-            React:{" "}
-            <a
-              href="https://reactjs.org/"
-              target="_blank"
-              rel="nofollow noopener"
-            >
-              https://reactjs.org/
-            </a>
-          </li>
-          <li>
-            Gatsby:{" "}
-            <a
-              href="http://gatsbyjs.org/"
-              target="_blank"
-              rel="nofollow noopener"
-            >
-              http://gatsbyjs.org/
-            </a>
-          </li>
-          <li>
-            GraphQL:{" "}
-            <a
-              href="https://graphql.org/learn/"
-              target="_blank"
-              rel="nofollow noopener"
-            >
-              https://graphql.org/learn/
-            </a>
-          </li>
-          <li>
-            React Helmet:{" "}
-            <a
-              href="https://github.com/nfl/react-helmet"
-              target="_blank"
-              rel="nofollow noopener"
-            >
-              https://github.com/nfl/react-helmet
-            </a>
-          </li>
-          <li>
-            react-cookie-consent:{" "}
-            <a
-              href="https://github.com/Mastermindzh/react-cookie-consent"
-              target="_blank"
-              rel="nofollow noopener"
-            >
-              https://github.com/Mastermindzh/react-cookie-consent
-            </a>
-          </li>
-        </ul>
-        <li>Styling components with JavaScript.</li>
-        <ul>
-          <li>
-            styled components:{" "}
-            <a
-              href="https://www.styled-components.com/"
-              target="_blank"
-              rel="nofollow noopener"
-            >
-              https://www.styled-components.com/
-            </a>
-          </li>
-          <li>
-            Rebass:{" "}
-            <a
-              href="https://rebassjs.org/"
-              target="_blank"
-              rel="nofollow noopener"
-            >
-              https://rebassjs.org/
-            </a>
-          </li>
-        </ul>
-        <li>Use underlying CSS techniques.</li>
-        <ul>
-          <li>
-            normalize.css:{" "}
-            <a
-              href="https://necolas.github.io/normalize.css/"
-              target="_blank"
-              rel="nofollow noopener"
-            >
-              https://necolas.github.io/normalize.css/
-            </a>
-          </li>
-          <li>
-            CSS Grid Layouts:{" "}
-            <a
-              href="https://css-tricks.com/snippets/css/complete-guide-grid/"
-              target="_blank"
-              rel="nofollow noopener"
-            >
-              https://css-tricks.com/snippets/css/complete-guide-grid/
-            </a>
-          </li>
-          <li>
-            CSS Flexbox Layouts:{" "}
-            <a
-              href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
-              target="_blank"
-              rel="nofollow noopener"
-            >
-              https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-            </a>
-          </li>
-        </ul>
-        <li>
-          Choose fonts or icons. Determine sizes, line-heights and margins.
-        </li>
-        <ul>
-          <li>
-            Google fonts:{" "}
-            <a
-              href="https://fonts.google.com/"
-              target="_blank"
-              rel="nofollow noopener"
-            >
-              https://fonts.google.com/
-            </a>
-          </li>
-          <li>
-            FontAwesome:{" "}
-            <a
-              href="https://fontawesome.com/"
-              target="_blank"
-              rel="nofollow noopener"
-            >
-              https://fontawesome.com/
-            </a>{" "}
-            and{" "}
-            <a
-              href="https://fontawesome.com/how-to-use/on-the-web/using-with/react"
-              target="_blank"
-              rel="nofollow noopener"
-            >
-              https://fontawesome.com/how-to-use/on-the-web/using-with/react
-            </a>
-          </li>
-          <li>
-            Typograhy.js:{" "}
-            <a
-              href="https://kyleamathews.github.io/typography.js/"
-              target="_blank"
-              rel="nofollow noopener"
-            >
-              https://kyleamathews.github.io/typography.js/
-            </a>
-          </li>
-          <li>
-            Gridlover:{" "}
-            <a
-              href="https://www.gridlover.net/try"
-              target="_blank"
-              rel="nofollow noopener"
-            >
-              https://www.gridlover.net/try
-            </a>
-          </li>
-        </ul>
-        <li>Select images and make them responsive.</li>
-        <ul>
-          <li>
-            Unsplash:{" "}
-            <a
-              href="https://unsplash.com/"
-              target="_blank"
-              rel="nofollow noopener"
-            >
-              https://unsplash.com/
-            </a>
-          </li>
-          <li>
-            Pexels:{" "}
-            <a
-              href="https://www.pexels.com/"
-              target="_blank"
-              rel="nofollow noopener"
-            >
-              https://www.pexels.com/
-            </a>
-          </li>
-          <li>
-            Pixabay:{" "}
-            <a
-              href="https://pixabay.com/"
-              target="_blank"
-              rel="nofollow noopener"
-            >
-              https://pixabay.com/
-            </a>
-          </li>
-          <li>
-            HTML picture tag:{" "}
-            <a
-              href="https://css-tricks.com/responsive-images-css/"
-              target="_blank"
-              rel="nofollow noopener"
-            >
-              https://css-tricks.com/responsive-images-css/
-            </a>
-          </li>
-        </ul>
-      </Ol>
-    </Section>
-    <Section>
-      <H2>Roadmap</H2>
-      <ul>
-        <li>Document components with Markdown.</li>
-        <li>
-          Perform tests with react-testing-library:{" "}
           <a
-            href="https://testing-library.com/react"
+            href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A42fc342e-dfaf-4601-ad35-d0bb446b15da"
             target="_blank"
-            rel="nofollow"
+            rel="nofollow noopener"
           >
-            https://testing-library.com/react
-          </a>
-        </li>
-      </ul>
+            Click here to view reference for this blog post
+            </a>
+        </ul>
+        <li>The potential pitfalls of US withdrawal from the Iran nuclear deal</li>
+        <ul>
+          <a
+            href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A205ed255-8782-4872-abfc-c94b0d4bc176"
+            target="_blank"
+            rel="nofollow noopener"
+          >
+            Click here to view reference for this blog post
+            </a>
+        </ul>
+        <li>Brexit and The Security Concerns Facing Northern Ireland</li>
+        <ul>
+          <a
+            href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A768a8d97-5498-4538-83b5-31403542eb39"
+            target="_blank"
+            rel="nofollow noopener"
+          >
+            Click here to view reference for this blog post
+            </a>
+        </ul>
+        <li>The European Union's showdown with Poland and Hungary</li>
+        <ul>
+          <a
+            href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A82628452-02b4-467d-944f-25d4a6fd2b65"
+            target="_blank"
+            rel="nofollow noopener"
+          >
+            Click here to view reference for this blog post
+            </a>
+        </ul>
+        <li>Turkish assault on Afrin and Germany’s role</li>
+        <ul>
+          <a
+            href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A2bdc6d21-41d7-47c7-9f11-93dbef77c100"
+            target="_blank"
+            rel="nofollow noopener"
+          >
+            Click here to view reference for this blog post
+            </a>
+        </ul>
+        <li>The two-state solution is dead. Long live independent Jerusalem</li>
+        <ul>
+          <a
+            href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A54502303-28e9-4801-928c-79fad08b7ee3"
+            target="_blank"
+            rel="nofollow noopener"
+          >
+            Click here to view reference for this blog post
+            </a>
+        </ul>
+        <li>Trump's tax cut ambitions</li>
+        <ul>
+          <a
+            href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A1f8f20ac-3576-4298-b79c-2e7b0048cbb9"
+            target="_blank"
+            rel="nofollow noopener"
+          >
+            Click here to view reference for this blog post
+            </a>
+        </ul>
+        <li>Qatar and its World Cup woes</li>
+        <ul>
+          <a
+            href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A9f098795-e957-4aaf-a872-884464d9011f"
+            target="_blank"
+            rel="nofollow noopener"
+          >
+            Click here to view reference for this blog post
+            </a>
+        </ul>
+        <li>What will it take to halt western support of Saudi Arabia’s bombing campaign in Yemen?</li>
+        <ul>
+          <a
+            href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A19142ee1-1203-4588-8cb6-60dde39566ee"
+            target="_blank"
+            rel="nofollow noopener"
+          >
+            Click here to view reference for this blog post
+            </a>
+        </ul>
+        <li>Canada, Bill C-16, and freedom of expression</li>
+        <ul>
+          <a
+            href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A1e490446-a2d3-4078-9796-93b8af4f9e5f"
+            target="_blank"
+            rel="nofollow noopener"
+          >
+            Click here to view reference for this blog post
+            </a>
+        </ul>
+        <li>The governmental structure of the European Union is largely democratic but it contains one huge flaw: the European Commission</li>
+        <ul>
+          <a
+            href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A4345af78-cb48-4563-a05b-2f62af115905"
+            target="_blank"
+            rel="nofollow noopener"
+          >
+            Click here to view reference for this blog post
+            </a>
+        </ul>
+
+      </Ol>
     </Section>
   </Layout>
 )

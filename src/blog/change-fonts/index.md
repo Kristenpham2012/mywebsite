@@ -1,7 +1,8 @@
 ---
 title: How to Change Fonts in this Website Template
-date: 2019-03-13
+date: 2017-10-20
 description:
+featuredImage: "./featured-image.jpg"
 ---
 
 ![Fonts](img/1200/16x9/04.jpg)

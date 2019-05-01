@@ -2,6 +2,7 @@
 title: Donald Trump and the controversy over white farmers in South Africa
 date: 2018-09-18
 description: On August 22nd 2018, US President Donald Trump tweeted about South Africa and its controversial land reforms. Naturally, this was followed by accusations of racism by countless Twitter users, and a debate that centered around Trump himself instead of the controversy in South Africa.
+featuredImage: "./featured-image.jpg"
 ---
 On the 23rd of August 2018, US President Donald Trump announced on Twitter that he had instructed Secretary of State Mike Pompeo to “closely study the South Africa land and farm seizures and expropriations and the large scale killing of farmers.” In this tweet, Trump also referred to Fox News commentator Tucker Carlson, who devoted a six-minute segment on his show to commenting on proposed land reforms in South Africa that were supposedly designed to expropriate land from white farmers with little or no compensation.
 

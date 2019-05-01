@@ -2,6 +2,7 @@
 title: What will it take to halt western support of Saudi Arabia’s bombing campaign in Yemen?
 date: 2017-12-02
 description: Saudi Arabia continues its brutal bombing campaign in Yemen. Why do western governments keep supporting this slaughter of civilians?
+featuredImage: "./featured-image.jpg"
 ---
 Since 2015, Yemen has been engulfed in a civil war that has claimed the lives of thousands of people, displaced millions more, and has brought starvation and disease to much of the population. The chief culprit for most of this suffering is not the Houthi rebels who overthrew the government led by Abdrabbuh Mansur Hadi,or the government forces themselves, but the Saudi Arabia-led intervention, aimed at restoring Hadi to power. Saudi Arabia’s intervention has consisted largely of airstrikes aimed at civilians and is responsible for a large percentage of civilian casualties. Saudi Arabia’s ability to wage war against the Houthi rebels has been enabled by countries like the United Kingdom, Germany, the United States and Canada selling them huge quantities of weapons and ammunition. In this piece, we’ll examine the controversy surrounding western arms sales to Saudi Arabia, the reasons behind them, and the conditions that need to be met before wester arms sales to Saudi Arabia can be halted.
 

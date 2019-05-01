@@ -2,6 +2,7 @@
 title: Turkish assault on Afrin and Germany’s role
 date: 2018-02-13
 description: Germany faces a major decision in the wake of Turkey's latest assault. Will Germany lead European efforts to put pressure on Turkey or will they stand idly by?
+featuredImage: "./featured-image.jpg"
 ---
 On 16th of January 2018, the US announced its plans to form a 30,000 strong “border force”, made up mostly of fighters in the Syrian Democratic Forces (or SDF), an alliance of Kurdish, Arab and other militias focused on combating ISIS. This force would be stationed across north-eastern Syria to prevent waves of jihadist fighters flooding through Turkey into northern Syria. In previous years, thousands of Islamic extremists traveled from European countries through Turkey and took advantage of Syria’s uncontrolled border. This gave ISIS a huge boost in manpower, and enabled the terrorist group to conduct large scale offensives in Syria and Iraq. With this announcement, the US sought to strengthen the Syrian border and prevent potential jihadist militants from trickling into Syria from Turkey.
 

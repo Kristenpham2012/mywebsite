@@ -2,6 +2,7 @@
 title: Qatar and its World Cup woes
 date: 2017-12-09
 description: Despite numerous incidents and investigations, Qatar is still on track to host the World Cup in 2022. Why does FIFA continue to support this despotic regime?
+featuredImage: "./featured-image.jpg"
 ---
 In December 2010, FIFA held a vote to decide where to hold the 2018 and 2022 FIFA World Cup tournaments. Russia won the 2018 bid and Qatar won the bid for 2022. Almost immediately, allegations of bribery and corruption surfaced, and the integrity of the World Cup vote has been brought into serious question. Since 2010, there have been endless corruption investigations, a complete overhaul of the FIFA leadership, as well as countless stories describing the plight of foreign construction workers building the stadiums and infrastructure in Qatar. In this blog, we’ll take a look at the scandals that have unfolded after Russia and Qatar were named World Cup hosts, the subsequent corruption investigations, and the horrifying treatment of workers in Qatar, which has resulted in over 1000 deaths.
 

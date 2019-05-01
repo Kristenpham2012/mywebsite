@@ -18,14 +18,8 @@ const ImprintPage = () => (
           <P>
             One Among Many
             <br />
-            {"<Address>"}
-            <br />
-            {"<oneamongmany.politics@gmail.com>"}
+            {"oneamongmany.politics@gmail.com"}
           </P>
-        </Box>
-        <Box>
-          <H3>Credits</H3>
-          <P>...</P>
         </Box>
       </RespGrid>
     </Section>

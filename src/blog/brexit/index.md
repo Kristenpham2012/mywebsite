@@ -2,6 +2,7 @@
 title: Brexit and the security concerns facing Northern Ireland
 date: 2018-04-17
 description: 20 years after the Good Friday Agreement was reached, serious concerns about its future viability have been raised in the wake of Brexit.
+featuredImage: "./featured-image.jpg"
 ---
 Despite difficulties, the Good Friday Agreement of 1998 has established a lasting peace in Northern Ireland over the last 20 years. In the aftermath of the Brexit referendum, and with the UK preparing to leave the EU, questions have arisen over the future of the Irish border. Despite British Prime Minister Theresa May’s promises, a hard border in Ireland has again become a real possibility, and the consequences of such a scenario could be dire. Dissident republicans and loyalist groups alike may seek to exploit this instability and stoke tension, possibly leading to an increased level of violence in the next few years.
 

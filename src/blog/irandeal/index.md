@@ -2,6 +2,7 @@
 title: The potential pitfalls of US withdrawal from the Iran nuclear deal
 date: 2018-05-14
 description: Though both are fierce critics of the Iran nuclear deal, Israel and the US may have the most to lose in the possible event of the deal's collapse.
+featuredImage: "./featured-image.jpg"
 ---
 On the 30th of April, Israeli Prime Minister Benjamin Netanyahu gave a presentation in which he claimed that Iran lied “big time” about its nuclear weapons programme and its attempts to hide tens of thousands of secret documents about the programme, discovered by Israeli intelligence agents. This presentation was met with widespread criticism, with officials from France, Germany and the UK indicating that this was not new information, and that it was the reason for the existence of the nuclear deal with Iran (called the Joint Comprehensive Plan of Action) in the first place.
 

@@ -21,6 +21,8 @@ import thumbnail2 from "../images/thumbnails/irandeal.png"
 import thumbnail3 from "../images/thumbnails/brexit.png"
 import thumbnail4 from "../images/thumbnails/polandhungary.png"
 import thumbnail5 from "../images/thumbnails/turkey.png"
+import Shadow from "../components/Shadow"
+
 
 const IndexPage = () => (
   <Layout>
@@ -54,69 +56,79 @@ const IndexPage = () => (
           <Section>
             <H2>Recently uploaded</H2></Section>
           <Section>
-            <Flex flexWrap="wrap">
-              <Box width={"100px"} mr={"6px"} mb={"10px"}>
-                <Link to="blog/trumpcontroversy/"><img src={thumbnail1} /></Link>
-              </Box>
-              <Box width={"250px"}>
-                <H4><Link to="blog/trumpcontroversy/">
-                  Donald and the controvery over white farmers in South Africa
+            <Shadow>
+              <Flex flexWrap="wrap">
+                <Box width={"100px"} mr={"6px"} mb={"10px"}>
+                  <Link to="blog/trumpcontroversy/"><img src={thumbnail1} /></Link>
+                </Box>
+                <Box width={"250px"}>
+                  <H4><Link to="blog/trumpcontroversy/">
+                    Donald and the controvery over white farmers in South Africa
                       </Link>
-                </H4>
-              </Box>
-            </Flex>
+                  </H4>
+                </Box>
+              </Flex>
+            </Shadow>
           </Section>
           <Section>
-            <Flex flexWrap="wrap">
-              <Box width={"100px"} mr={"6px"} mb={"10px"}>
-                <Link to="blog/irandeal/"><img src={thumbnail2} /></Link>
-              </Box>
-              <Box width={"260px"}>
-                <H4><Link to="blog/irandeal/">
-                  The potential pitfalls of US withdrawal from the Iran nuclear deal
+            <Shadow>
+              <Flex flexWrap="wrap">
+                <Box width={"100px"} mr={"6px"} mb={"10px"}>
+                  <Link to="blog/irandeal/"><img src={thumbnail2} /></Link>
+                </Box>
+                <Box width={"250px"}>
+                  <H4><Link to="blog/irandeal/">
+                    The potential pitfalls of US withdrawal from the Iran nuclear deal
                   </Link>
-                </H4>
-              </Box>
-            </Flex>
+                  </H4>
+                </Box>
+              </Flex>
+            </Shadow>
           </Section>
           <Section>
-            <Flex flexWrap="wrap">
-              <Box width={"100px"} mr={"6px"} mb={"10px"}>
-                <Link to="blog/brexit/"><img src={thumbnail3} /></Link>
-              </Box>
-              <Box width={"250px"}>
-                <H4><Link to="blog/brexit/">
-                  Brexit and the security concerns facing Nothern Ireland
+            <Shadow>
+              <Flex flexWrap="wrap">
+                <Box width={"100px"} mr={"6px"} mb={"10px"}>
+                  <Link to="blog/brexit/"><img src={thumbnail3} /></Link>
+                </Box>
+                <Box width={"250px"}>
+                  <H4><Link to="blog/brexit/">
+                    Brexit and the security concerns facing Nothern Ireland
                   </Link>
-                </H4>
-              </Box>
-            </Flex>
+                  </H4>
+                </Box>
+              </Flex>
+            </Shadow>
           </Section>
           <Section>
-            <Flex flexWrap="wrap">
-              <Box width={"100px"} mr={"6px"} mb={"10px"}>
-                <Link to="blog/importance-of-websites/"><img src={thumbnail4} /></Link>
-              </Box>
-              <Box width={"250px"}>
-                <H4><Link to="blog/importance-of-websites/">
-                  The European Union's showdown with Poland and Hungary
+            <Shadow>
+              <Flex flexWrap="wrap">
+                <Box width={"100px"} mr={"6px"} mb={"10px"}>
+                  <Link to="blog/importance-of-websites/"><img src={thumbnail4} /></Link>
+                </Box>
+                <Box width={"250px"}>
+                  <H4><Link to="blog/importance-of-websites/">
+                    The European Union's showdown with Poland and Hungary
                   </Link>
-                </H4>
-              </Box>
-            </Flex>
+                  </H4>
+                </Box>
+              </Flex>
+            </Shadow>
           </Section>
           <Section>
-            <Flex flexWrap="wrap">
-              <Box width={"100px"} mr={"6px"} mb={"10px"}>
-                <Link to="blog/your-story/"><img src={thumbnail5} /></Link>
-              </Box>
-              <Box width={"250px"}>
-                <H4><Link to="blog/your-story/">
-                  Turkish assault on Afrin and Germany’s role
+            <Shadow>
+              <Flex flexWrap="wrap">
+                <Box width={"100px"} mr={"6px"} mb={"10px"}>
+                  <Link to="blog/your-story/"><img src={thumbnail5} /></Link>
+                </Box>
+                <Box width={"250px"}>
+                  <H4><Link to="blog/your-story/">
+                    Turkish assault on Afrin and Germany’s role
                   </Link>
-                </H4>
-              </Box>
-            </Flex>
+                  </H4>
+                </Box>
+              </Flex>
+            </Shadow>
           </Section>
         </Box>
       </Flex>
