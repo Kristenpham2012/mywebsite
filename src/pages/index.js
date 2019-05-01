@@ -33,7 +33,7 @@ const IndexPage = () => (
     <Section>
       <Flex flexWrap="wrap">
         <Box width={"550px"} pl={[0, 2]} mt={"15px"}>
-            <H2>Featured Blog</H2>
+          <H2>Featured Blog</H2>
           <Carousel width={"480px"}>
             <Link to="blog/trumpcontroversy/"><img src={post1} /></Link>
             <Link to="blog/brexit/"><img src={post2} /></Link>
@@ -55,12 +55,12 @@ const IndexPage = () => (
             <H2>Recently uploaded</H2></Section>
           <Section>
             <Flex flexWrap="wrap">
-                <Box width={"100px"} mr={"6px"} mb={"10px"}>
+              <Box width={"100px"} mr={"6px"} mb={"10px"}>
                 <Link to="blog/trumpcontroversy/"><img src={thumbnail1} /></Link>
               </Box>
               <Box width={"250px"}>
                 <H4><Link to="blog/trumpcontroversy/">
-                  Donald Trump and the controvery over white farmers in South Africa
+                  Donald and the controvery over white farmers in South Africa
                       </Link>
                 </H4>
               </Box>
